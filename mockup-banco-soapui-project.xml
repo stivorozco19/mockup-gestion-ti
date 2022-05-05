@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="c07bb8cd-0d8c-4e50-a1e9-abe08bca7482" activeEnvironment="Default" name="mockup-banco" resourceRoot="" soapui-version="5.7.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:restMockService id="d7fc3fc5-46d1-42c2-b7c9-1bc9bde8d334" port="8080" path="/" host="ST" name="REST MockService"><con:settings/><con:properties/></con:restMockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
