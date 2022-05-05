@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "9c491d2f-e4f2-4608-b7d3-1b644efd85f4",
+		"name": "Gestion TI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"usuario_demo\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/sendUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sendUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "initCaptcha",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/initCaptcha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"initCaptcha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkCaptcha true",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"frase\":\"frase\",\r\n    \"arreglo-seleccionado\":[\r\n        \"https://i.pinimg.com/originals/92/1b/42/921b421e9bf354a834d17cbbd581b416.jpg\",\r\n        \"https://www.geekmi.news/__export/1623534723688/sites/debate/img/2021/06/12/sasukemuere1.jpg_2102270887.jpg\"\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/checkCaptcha",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"checkCaptcha"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sendPassord",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\":\"clave correcta\",\r\n    \"sessionid\":\"1234abcd\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/sendPassord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sendPassord"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
