@@ -262,6 +262,6 @@ if( requestBody.contains("some data") )&#13;
 */&#13;
 </con:dispatchPath><con:response name="sendPasswordResponse-true.json" id="06621d29-270e-4fe1-ac27-40b128e0b890" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{&#13;
     "status-login":true&#13;
-}</con:responseContent></con:response><con:response name="sendPasswordResponse-false.json" id="b0c696bd-e5ec-467b-bd62-a5ae07d67818" httpResponseStatus="200" mediaType="application/json"><con:settings/><con:responseContent>{&#13;
+}</con:responseContent></con:response><con:response name="sendPasswordResponse-false.json" id="b0c696bd-e5ec-467b-bd62-a5ae07d67818" httpResponseStatus="401" mediaType="application/json"><con:settings/><con:responseContent>{&#13;
     "status-login":false&#13;
 }</con:responseContent></con:response></con:restMockAction></con:restMockService><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
